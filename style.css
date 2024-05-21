@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html,head{
+    height: 100%;
+    background-image: url('./assets/showcase_bg.jpg');
+    background-size: 100% 100%;
+
+}
+.menu {
+    text-align:center;
+    height:60px;
+    background-color: rgba(255, 255, 255, 0.034);
+    margin: 10px auto;
+    width: 25%;
+    border-radius: 1px;
+    border: 1px solid white;
+    
+}
+h3{
+    padding: 5px 10px;
+    display: inline-block;
+    margin-top: 16px;
+    text-transform: uppercase;
+    color: rgba(167, 164, 164, 0.965);
+    font-weight: bold;
+    cursor: pointer;
+
+}
+h3:hover{
+    transition:2s;
+    border-right: px solid white;
+}
+.sessao{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 40px;
+    height:350px;
+    background-color: rgba(255, 255, 255, 0.026);
+    width: 70%;
+    border-radius: 5px;
+}
+
+.img{
+    
+    height: 190px;
+    background-image: url(./assets/guiAi.png);
+    background-size: cover;
+    width: 19%;
+    border-radius:calc(100% + 10px);
+    margin: 72px 2%;
+    
+}
+.description{
+    height: 320px;
+    width: 40%;
+    margin: 15px 2%;
+    
+}
+
+h1{
+    font-size: 28px;
+    margin: 0 0 10px 30px;
+    color: white;
+    
+
+}
+
+.conteiner-sobre>h2{
+    margin: 0 0 30px 30px;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    
+    
+}
+strong{
+    color: rgb(14, 31, 35);
+}
+p{
+    margin: 10px 0 0 30px;
+    width: 90%;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+
