@@ -43,21 +43,24 @@ h3:hover{
     width: 70%;
     border-radius: 5px;
 }
-
+.p_img{
+    display: flex;
+    align-items: center;
+}
 .img{
-    
     height: 190px;
     background-image: url(./assets/guiAi.png);
     background-size: cover;
-    width: 19%;
     border-radius:calc(100% + 10px);
-    margin: 72px 2%;
-    
+    width: 23%;
 }
 .description{
     height: 320px;
-    width: 40%;
+    width: 100%;
     margin: 15px 2%;
+    display: flex;
+    justify-content: space-evenly;
+   
     
 }
 
@@ -86,5 +89,12 @@ p{
     font-size: 14px;
     text-transform: uppercase;
 }
-
+.w50{
+    max-width: 50%;
+    background-color: red;
+    border-right: 1px solid white;
+}
+.habilidades{
+    display: block;
+}
 
