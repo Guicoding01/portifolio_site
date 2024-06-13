@@ -60,6 +60,54 @@ h3:hover{
     
 }
 
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.icon{
+    width: 5.625rem;
+    height: 5.625rem;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+.icon:hover{
+    scale: 1.2;
+    color: #f1f1f1;
+}
+.icon:before{
+    background: black;
+    content: "";
+    position: absolute;
+    width: 130%;
+    height: 130%;
+    left: -110%;
+    top:80%;
+    transform: rotate(45deg);
+
+}
+
+.icon:hover:before{
+    animation:slide 0.7s forwards;
+}
+@keyframes slide{
+    50%{
+        left: 10%;
+        top: -40%;
+    }
+
+    100%{
+        left: -15%;
+        top: -105;
+    }
+}
+
 .description{
     height: 320px;
     width: 100%;
@@ -88,7 +136,7 @@ p{
     margin: 10px 0 0 30px;
     width: 90%;
     color: white;
-    font-size: 14px;
+    font-size: 17px;
     text-transform: uppercase;
 }
 .w50{
