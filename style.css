@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0; 
     box-sizing: border-box;
+   font-family:sans-serif;
     
 }
 html,head{
@@ -135,10 +136,26 @@ p{
 .habilidades{
     display: flex;
     width: 30%;
-    justify-content: center;
+    align-items: center;
     margin-top: 7px;
+    flex-direction: column;
 }
 .habilidades h2{
     color:white;
 }
-
+ul{
+    margin-top: 3rem;
+    color: white;
+    font-weight: bold;
+    
+}
+li{
+    margin-top: 10px;
+    text-transform: uppercase;
+    list-style: none;
+}
+.hab{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
